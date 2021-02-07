@@ -1,3 +1,28 @@
 body {
   font-family: Roboto, sans-serif;
 }
+
+.filtr .button {
+  font-weight: 500;
+  color: #212121;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.title-projects {
+  display: none;
+}
+
+.project .title {
+  font-weight: 700;
+  color: #212121;
+}
+
+.project .industry {
+  font-weight: 400;
+  color: #757575;
+}
