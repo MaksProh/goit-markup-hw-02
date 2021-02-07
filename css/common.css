@@ -1,0 +1,72 @@
+:root {
+  --white-text: #ffffff;
+  --grey-text: #757575;
+  --black-text: #212121;
+}
+
+.nav .link {
+  font-weight: 500;
+  color: #212121;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: #2196f3;
+}
+
+.webstudio {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  color: #212121;
+}
+
+.web {
+  color: #2196f3;
+}
+
+.studio {
+  color: #ffffff;
+}
+
+.addres {
+  color: #ffffff;
+}
+
+.contacts-nav .mail:hover,
+.contacts-nav .mail:focus,
+.contacts-footer .mail:hover,
+.contacts-footer .mail:focus {
+  color: #2196f3;
+}
+
+.contacts-nav .pfone:hover,
+.contacts-nav .pfone:focus,
+.contacts-footer .pfone:hover,
+.contacts-footer .pfone:focus {
+  color: #2196f3;
+}
+
+.contacts-footer .addres:hover,
+.contacts-footer .addres:focus {
+  color: #2196f3;
+}
+
+.contacts-footer .mail,
+.pfone,
+.contacts-nav .mail,
+.pfone {
+  font-weight: 500;
+  color: #757575;
+}
+
+.fon-footer {
+  background-color: #2f303a;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+}

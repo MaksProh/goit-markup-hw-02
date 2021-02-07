@@ -1,0 +1,47 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.fon-hero {
+  background-color: #2f303a;
+}
+
+.hero-button {
+  background-color: #2196f3;
+}
+
+.button-text {
+  color: #ffffff;
+}
+
+.list-advantages .advantages {
+  font-weight: 700;
+}
+
+.list-advantages .list-description {
+  font-weight: 400;
+  color: #757575;
+}
+
+.title {
+  font-weight: 700;
+  color: #212121;
+}
+
+.title-command .initials {
+  font-weight: 500;
+  color: #212121;
+}
+
+.title-command .profession {
+  font-weight: 400;
+  color: #757575;
+}
+
+.ghost {
+  display: none;
+}
