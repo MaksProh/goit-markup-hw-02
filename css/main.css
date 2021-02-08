@@ -3,19 +3,19 @@ body {
 }
 
 h1 {
-  color: #ffffff;
+  color: var(--white-text);
 }
 
 .fon-hero {
-  background-color: #2f303a;
+  background-color: var(--grey-fone);
 }
 
 .hero-button {
-  background-color: #2196f3;
+  background-color: var(--blu-text);
 }
 
 .button-text {
-  color: #ffffff;
+  color: var(--white-text);
 }
 
 .list-advantages .advantages {
@@ -24,22 +24,22 @@ h1 {
 
 .list-advantages .list-description {
   font-weight: 400;
-  color: #757575;
+  color: var(--grey-text);
 }
 
 .title {
   font-weight: 700;
-  color: #212121;
+  color: var(--black-text);
 }
 
 .title-command .initials {
   font-weight: 500;
-  color: #212121;
+  color: var(--black-text);
 }
 
 .title-command .profession {
   font-weight: 400;
-  color: #757575;
+  color: var(--grey-text);
 }
 
 .ghost {

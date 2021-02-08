@@ -2,53 +2,55 @@
   --white-text: #ffffff;
   --grey-text: #757575;
   --black-text: #212121;
+  --blu-text: #2196f3;
+  --grey-fone: #2f303a;
 }
 
 .nav .link {
   font-weight: 500;
-  color: #212121;
+  color: var(--black-text);
 }
 
 .nav .link:hover,
 .nav .link:focus {
-  color: #2196f3;
+  color: var(--blu-text);
 }
 
 .webstudio {
   font-family: Raleway, sans-serif;
   font-weight: 700;
-  color: #212121;
+  color: var(--black-text);
 }
 
 .web {
-  color: #2196f3;
+  color: var(--blu-text);
 }
 
 .studio {
-  color: #ffffff;
+  color: var(--white-text);
 }
 
 .addres {
-  color: #ffffff;
+  color: var(--white-text);
 }
 
 .contacts-nav .mail:hover,
 .contacts-nav .mail:focus,
 .contacts-footer .mail:hover,
 .contacts-footer .mail:focus {
-  color: #2196f3;
+  color: var(--blu-text);
 }
 
 .contacts-nav .pfone:hover,
 .contacts-nav .pfone:focus,
 .contacts-footer .pfone:hover,
 .contacts-footer .pfone:focus {
-  color: #2196f3;
+  color: var(--blu-text);
 }
 
 .contacts-footer .addres:hover,
 .contacts-footer .addres:focus {
-  color: #2196f3;
+  color: var(--blu-text);
 }
 
 .contacts-footer .mail,
@@ -56,11 +58,11 @@
 .contacts-nav .mail,
 .pfone {
   font-weight: 500;
-  color: #757575;
+  color: var(--grey-text);
 }
 
 .fon-footer {
-  background-color: #2f303a;
+  background-color: var(--grey-fone);
 }
 
 ul {
@@ -69,4 +71,24 @@ ul {
 
 button {
   border: none;
+}
+
+.link,
+.webstudio,
+.mail,
+.pfone {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
