@@ -18,6 +18,8 @@ h1 {
 }
 
 .button-text {
+  font-weight: 700;
+  font-size: 16px;
   color: var(--white-text);
 }
 
@@ -40,14 +42,12 @@ h1 {
 
 .title-command .initials {
   font-weight: 500;
+  font-size: 16px;
   color: var(--black-text);
 }
 
 .title-command .profession {
   font-weight: 400;
+  font-size: 16px;
   color: var(--grey-text);
-}
-
-.ghost {
-  display: none;
 }

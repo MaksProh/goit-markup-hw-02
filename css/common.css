@@ -4,6 +4,8 @@
   --black-text: #212121;
   --blu-text: #2196f3;
   --grey-fone: #2f303a;
+  --white-transparent-text: rgba(255, 255, 255, 0.6);
+  --bold-black: #000000;
 }
 
 .nav .link {
@@ -21,7 +23,7 @@
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  color: var(--black-text);
+  color: var(--bold-black);
 }
 
 .web {
@@ -56,13 +58,23 @@
   color: var(--blu-text);
 }
 
-.contacts-footer .mail,
-.pfone,
-.contacts-nav .mail,
-.pfone {
+.contacts-nav .mail {
   font-weight: 500;
   font-size: 14px;
   color: var(--grey-text);
+}
+
+.contacts-nav .pfone {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--grey-text);
+}
+
+.contacts-footer .mail,
+.pfone {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--white-transparent-text);
 }
 
 .fon-footer {
@@ -80,7 +92,8 @@ button {
 .link,
 .webstudio,
 .mail,
-.pfone {
+.pfone,
+.addres {
   text-decoration: none;
 }
 
