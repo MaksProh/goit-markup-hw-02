@@ -9,6 +9,7 @@
 .nav .link {
   font-weight: 500;
   color: var(--black-text);
+  font-size: 14px;
 }
 
 .nav .link:hover,

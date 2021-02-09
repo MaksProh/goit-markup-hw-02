@@ -4,6 +4,8 @@ body {
 
 h1 {
   color: var(--white-text);
+  font-size: 44px;
+  font-weight: 900;
 }
 
 .fon-hero {
@@ -20,16 +22,19 @@ h1 {
 
 .list-advantages .advantages {
   font-weight: 700;
+  font-size: 14px;
 }
 
 .list-advantages .list-description {
   font-weight: 400;
+  font-size: 14px;
   color: var(--grey-text);
 }
 
 .title {
   font-weight: 700;
   color: var(--black-text);
+  font-size: 36px;
 }
 
 .title-command .initials {
